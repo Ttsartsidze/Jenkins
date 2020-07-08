@@ -1,7 +1,8 @@
-﻿$WebSiteName = "BulkImporter.API"
-$FolderName = "BulkImporter"
+﻿$WebSiteName = "SiteName.API"
+$FolderName = "SiteName"
 $Service = "Api"
-$Bindigs = "http/*:80:BulkImporter.03.Test.API.lb.ge"
+$Bindigs = "http/*:80:SiteName.03.Test.API.lb.ge"
+<# or $Bindigs = "https/*:443:SiteName.03.Test.API.lb.ge"#>
 $PoolName = $WebSiteName
 $NewPath = "D:\$Service\$FolderName\Current"
 $LogPath = "D:\Logs\$Service\$FolderName"

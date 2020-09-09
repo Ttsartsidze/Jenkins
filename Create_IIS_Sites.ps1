@@ -1,6 +1,7 @@
 ﻿$WebSiteName = "SiteName.API"
 $FolderName = "SiteName"
 $Service = "Api"
+<# or write Web-Sites; Web-Services; Windows-Services #>
 $Bindigs = "http/*:80:SiteName.03.Test.API.lb.ge"
 <# or $Bindigs = "https/*:443:SiteName.03.Test.API.lb.ge"#>
 $PoolName = $WebSiteName
